@@ -1,0 +1,115 @@
+.navpersonalizada {
+  background-color: #5a65c5;
+  color: whitesmoke;
+  font-weight: bold;
+}
+.navpersonalizada a {
+  color: whitesmoke !important;
+}
+
+.encabezadoImg {
+  width: 100%;
+}
+
+body {
+  font-family: roboto;
+  padding-top: 3rem;
+}
+body h2 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 3rem;
+  margin: 2rem;
+}
+body dialog {
+  border-radius: 1cm;
+  padding-bottom: 1rem;
+}
+body dialog ul {
+  list-style-type: disclosure-closed;
+  font-weight: 600;
+  margin: 0 12rem;
+}
+body dialog li {
+  padding: 0.5rem;
+}
+body dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+body label {
+  font-weight: 600;
+}
+body .box-list {
+  background-color: white;
+  margin: 2rem;
+  padding: 3rem;
+  border-radius: 1cm;
+}
+body .box-list ul {
+  list-style-type: disclosure-closed;
+  font-weight: 600;
+}
+body .box-list li {
+  padding: 0.5rem;
+}
+body .no-datos {
+  color: #e6868f;
+  font-size: 80%;
+}
+
+/* SECCIÓN CARACTERÍSTICAS DEL PRÉSTAMO */
+.seccion-caracteristicas {
+  background-color: #5a65c5;
+  color: whitesmoke
+}
+.seccion-caracteristicas ul {
+  font-weight: 600;
+  color: black;
+}
+.seccion-caracteristicas li {
+  padding: 0.5rem;
+}
+.seccion-caracteristicas .lista-porqueelegirnos {
+  background-color: white;
+  margin: 2rem;
+  padding: 3rem;
+  border-radius: 1cm;
+}
+
+/* SECCIÓN SIMULAR PRÉSTAMO */
+.seccion-calcular-prestamo {
+  padding-bottom: 3rem;
+}
+.seccion-calcular-prestamo button {
+  background-color: #e6868f;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  margin: 1rem 12rem;
+}
+.seccion-calcular-prestamo button:hover {
+  background-color: #5a65c5;
+  color: #f8fafb;
+  transition: all, linear 0.3s;
+}
+
+/* SECCIÓN SOLICITAR PRÉSTAMO */
+.seccion-solicitar-prestamo {
+  background-color: #5a65c5;
+}
+.seccion-solicitar-prestamo  h2 {
+  padding-bottom: 1rem;
+  margin: 0;
+}
+.seccion-solicitar-prestamo  button {
+  background-color: #e6868f;
+  font-weight: 600;
+  border-radius: 0.5rem;
+}
+.seccion-solicitar-prestamo  button:hover {
+  background-color: #5a65c5;
+  color: #f8fafb;
+  transition: all, linear 0.3s;
+}
+.seccion-solicitar-prestamo .btn-modal {
+  margin: 3px;
+}

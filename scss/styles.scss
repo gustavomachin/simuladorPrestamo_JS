@@ -1,0 +1,165 @@
+@import 'variables';
+@import 'header';
+
+body {
+    font-family: $font-primary;
+    padding-top: 3rem;
+
+    h2 {
+        font-weight: bold;
+        text-align: center;
+        font-size: 3rem;
+        margin: 2rem;
+    }
+
+    p {
+        font-weight: 600;
+    }
+
+    h3 {
+        font-weight: bold;
+    }
+
+    dialog {
+        border-radius: 1cm;
+        padding-bottom: 1rem;
+
+        ul {
+            list-style-type: disclosure-closed;
+            font-weight: 600;
+            margin: 0 12rem;
+        }
+
+        li {
+            padding: 0.5rem;
+        }
+
+        &::backdrop {
+            background-color: rgba(0, 0, 0, .70);
+        }
+    }
+
+    label {
+        font-weight: 600;
+    }
+
+    .box-list {
+        background-color: white;
+        margin: 2rem;
+        padding: 3rem;
+        border-radius: 1cm;
+
+        ul {
+            list-style-type: disclosure-closed;
+            font-weight: 600;
+        }
+
+        li {
+            padding: 0.5rem;
+        }
+    }
+    .no-datos{
+        color: $color-detail;
+        font-size: 80%;
+    }
+}
+
+
+.seccion-requisitos {
+    background-color: $color-primary;
+
+    h2 {
+        padding-bottom: 1rem;
+        margin: 0;
+    }
+
+    button {
+        background-color: $color-detail;
+        font-weight: 600;
+        border-radius: 0.5rem;
+
+        &:hover {
+            background-color: $color-primary;
+            color: $color-text;
+            transition: all, linear 0.3s;
+        }
+    }
+    .btn-modal{
+        margin: 3px;
+    }
+}
+
+.seccion-comofunciona {
+    text-align: center;
+
+    span {
+        color: $color-primary;
+    }
+
+    .col-lg-4 {
+        padding: 2rem 3rem;
+    }
+
+    .bx {
+        color: $color-primary;
+        border-color: $color-primary;
+        margin-bottom: 1rem;
+    }
+}
+
+.seccion-porque-escogernos {
+    background-color: $color-primary;
+
+    span {
+        color: $color-text;
+    }
+
+    ul {
+        list-style-type: disclosure-closed;
+        font-weight: 600;
+    }
+
+    li {
+        padding: 0.5rem;
+    }
+
+    .lista-porqueelegirnos {
+        background-color: white;
+        margin: 2rem;
+        padding: 3rem;
+        border-radius: 1cm
+    }
+}
+
+.seccion-calcular-prestamo {
+    padding-bottom: 3rem;
+
+    button {
+        background-color: $color-detail;
+        font-weight: 600;
+        border-radius: 0.5rem;
+        margin: 1rem 12rem;
+
+        &:hover {
+            background-color: $color-primary;
+            color: $color-text;
+            transition: all, linear 0.3s;
+        }
+    }
+}
+
+.seccion-preguntas-frecuentes {
+    background-color: $color-primary;
+    p{
+        font-size: 0.9rem;
+    }
+    .accordion-button {
+        background-color: $color-primary;
+        font-weight: 600;
+    }
+
+    .accordion-item {
+        background-color: $color-primary;
+        font-weight: 600;
+    }
+}
