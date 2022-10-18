@@ -13,7 +13,7 @@ const divAgregado = document.querySelector("#datosCalculados");
 
 /* Función calcular monto final y cuota*/
 function calculoPrestamo(dineroPrestado, cantidadCuotas) {
-    let interes = 10 /*aca quisiera conectar con una API*/
+    let interes = 10 
     let cuota = (dineroPrestado*(interes/100))/(1-(1+(interes/100))**(-cantidadCuotas));
     let totalAdevolver = cuota * cantidadCuotas;
     return {
